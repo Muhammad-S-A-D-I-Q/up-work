@@ -183,3 +183,41 @@ div.job h5{
     border-radius:10px ;
     background-color: #BC511B;
 }
+ul{
+    background-color: white;
+    list-style-type: none;
+   
+}
+li{
+    float: left;
+  
+    
+}
+.nav{
+    display: flex;
+    gap:16px;
+    font-size: smaller;
+   
+}
+.nav a{
+    color: black;
+    text-decoration: none;
+}
+.nav-child{
+    margin-top: 12px;
+}
+.nav-child a :hover{
+    color: #108A00;
+}
+.nav-child1{
+    color: #108A00;
+    font-size: smaller;
+}
+.nav-child1 a {
+    text-decoration: none;
+    color: black;
+}
+.nav-child1 a :hover{
+    color: #108A00;
+}
+*a{text-decoration: none;}
