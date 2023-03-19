@@ -1,6 +1,10 @@
 body{
     background-color: white;
     width: 100%;
+    -webkit-user-select: none;
+    user-select: none;
+    
+
 }
 div.p-head{
     /* justify-self: center; */
@@ -15,12 +19,13 @@ div.head {
     max-height:fit-content ;
     display: flex;
     gap: 500px;
-    width: 90%;
+    width: 70%;
 }
 div.head h1 {
     font-size: 2cm;
     color: #14A800;
     font-weight: lighter;
+    min-width: 350px;
 }
 div.head p {
     font-size: 0.5cm;
@@ -50,18 +55,22 @@ div.p-job{
 div.job{
     display: flex;
     gap: 100px;
-    width: 85%;
+    width: 60%;
     height: fit-content;
+   
     
 }
 span{
     font-family: sans-serif;
+    min-width: 400px;
 }
 div.job p {
     font-size: smaller;
+    min-width: 400px;
 }
 div.job h5{
     font-family: sans-serif;
+    min-width: 400px;
 }
 .j-b{
     background-color: #14A800;
@@ -84,7 +93,7 @@ div.job h5{
 
 }
 .j-b2:hover{
-    background-color: gray;
+    background-color: rgb(220, 220, 220);
 
 }
 .p-g{
@@ -159,11 +168,14 @@ div.job h5{
 .f{
     display: flex;
     gap: 50px;
+    width: 80%;
 }
 .items{
     text-align: start;
     border-radius: 10px;
     background-color: #13544E;
+    min-width: 400px;
+    
 }
 .o1{
     font-size: 0.5cm;
@@ -183,6 +195,7 @@ div.job h5{
     text-align: start;
     border-radius:10px ;
     background-color: #BC511B;
+    min-width: 400px;
 }
 ul{
     background-color: white;
@@ -193,6 +206,57 @@ li{
     float: left;
   
     
+}
+.kk{
+    justify-content: left;
+    display: flex;
+    gap: 10px;
+    width: 40%;
+}
+.kk2{
+    display:flex ;
+    width: 60%;
+    justify-content: flex-end;
+    margin-top:10px ;
+    margin-right: 10px;
+}
+.kk2-child-b{
+    border: 1px solid;
+    border-radius: 20px;
+    height: 30px;
+}
+.kk2-child{
+            width: 250px;
+                border: #108A00;
+}
+#b5 button{
+     background-color:#14A800;
+     border-radius: 20px;
+     width: 70px;
+     height: 30px;
+     margin-left: 10px;
+     margin-right: 10px;
+     margin-top: 1px;
+     border: none;
+     color: white;
+
+}
+.kk2-child input{
+                 border-radius: 10px;
+                 text-align: left;
+                 width: 120px;
+                 text-align: left;
+                 border: none;
+                 margin-top: 5px;
+}
+
+.kk2-child button{
+                  border-radius: 20px;
+                  background-color: #14A800;
+                  color: #ebf0eb;
+                  font-weight: bold;
+                  height: 25px;
+                  width: 70px;
 }
 .nav{
     display: flex;
@@ -221,4 +285,30 @@ li{
 .nav-child1 a :hover{
     color: #108A00;
 }
-*a{text-decoration: none;}
+*a{
+    text-decoration: none;
+}
+.itemso h1{
+    color: white;
+}
+li {
+        float: right;
+}
+@media (max-width:900px){
+   .nav{
+    width: 100%;
+    height: auto;
+    position: relative;
+   }
+  div.p head{
+    margin-left: 0px ;
+  }
+  @media (max-width: 400px) {
+     .nav{
+        text-align: center;
+        display: inline-flex;
+     }
+
+  }
+}
+
