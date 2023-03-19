@@ -18,8 +18,8 @@ div.head {
     
     max-height:fit-content ;
     display: flex;
-    gap: 500px;
-    width: 70%;
+    gap: 350px;
+    width: 60%;
 }
 div.head h1 {
     font-size: 2cm;
@@ -32,6 +32,7 @@ div.head p {
 }
 img.globe{
     float: right;
+    justify-items: baseline;
 }
 div.head button{
     /* size: 2cm; */
@@ -59,6 +60,9 @@ div.job{
     height: fit-content;
    
     
+}
+.pl hr{
+       width: 100%;  
 }
 span{
     font-family: sans-serif;
@@ -262,7 +266,7 @@ li{
     display: flex;
     gap:16px;
     font-size: smaller;
-   
+   width: 100%;
 }
 .nav a{
     color: black;
@@ -322,4 +326,16 @@ li {
         font-weight: bold;
     }
     
+}
+@media (max-width:1165px) {
+    div.head{
+        gap: 100px;
+    }
+}
+@media (max-width:1015) {
+    div.job{
+        gap: 50px;
+        display: flex;
+        flex-direction: row;
+    }
 }
