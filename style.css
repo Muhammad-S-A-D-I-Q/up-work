@@ -192,6 +192,9 @@ div.job h5{
     font-size: smaller;
     color: gainsboro;
 }
+input :hover{
+    border: none;
+}
 .items h1{
     color: white;
 }
@@ -338,4 +341,62 @@ li {
         display: flex;
         flex-direction: row;
     }
+}
+/* div{
+    background-color: ;
+} */
+div.end{
+    justify-content: center;
+    width: 100%;
+    justify-items: center;
+    display: flex;
+    /* background-color: rgb(155, 44, 44); */
+    height: 800px;
+    
+}
+div.endo{
+    justify-items: center;
+    width: 80%;
+    background-color: #001E00;
+    border-radius: 2px;
+    border: 2px solid;
+}
+div.end-1{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px ;
+    width: 100%;
+    /* background-color:#001E00; */
+    /* border:#001E00 solid; */
+    /* border-radius: 10px; */
+    justify-content: center;
+}
+.e2{
+    font-size: 16px;
+    margin-top: 10%;
+    color: white;
+    letter-spacing: 2px;
+}
+.ee3{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.e3{
+    justify-content: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns:600px 300px ;
+}
+.ps{
+    color: white;
+}
+.e3 a{
+          color: #ffffffff;
+}
+.e3 a :hover{
+    color: #ebf0eb;
+}
+.ew p{
+    color: #ffff;
 }
